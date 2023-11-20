@@ -1,0 +1,17 @@
+{
+  "name": "mobiscroll-module-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "//-postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mobiscroll/datepicker-react": "^5.27.3",
+    "patch-package": "^8.0.0"
+  }
+}

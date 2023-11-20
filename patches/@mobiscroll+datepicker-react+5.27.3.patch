@@ -1,0 +1,25 @@
+diff --git a/node_modules/@mobiscroll/datepicker-react/dist/esm5/package.json b/node_modules/@mobiscroll/datepicker-react/dist/esm5/package.json
+new file mode 100644
+index 0000000..aead43d
+--- /dev/null
++++ b/node_modules/@mobiscroll/datepicker-react/dist/esm5/package.json
+@@ -0,0 +1,3 @@
++{
++  "type": "module"
++}
+\ No newline at end of file
+diff --git a/node_modules/@mobiscroll/datepicker-react/package.json b/node_modules/@mobiscroll/datepicker-react/package.json
+index 57ae075..d90f181 100644
+--- a/node_modules/@mobiscroll/datepicker-react/package.json
++++ b/node_modules/@mobiscroll/datepicker-react/package.json
+@@ -26,6 +26,10 @@
+   "bugs": {
+     "url": "https://github.com/acidb/mobiscroll/issues"
+   },
++  "exports": {
++    "import": "./dist/esm5/mobiscroll.react.min.js",
++    "default": "./dist/js/mobiscroll.react.min.js"
++  },
+   "main": "dist/js/mobiscroll.react.min.js",
+   "module": "dist/esm5/mobiscroll.react.min.js",
+   "typings": "dist/src/react/bundle.d.ts",
